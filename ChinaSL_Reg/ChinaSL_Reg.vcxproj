@@ -182,24 +182,11 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ChinaSL_Reg.h" />
-    <ClInclude Include="ChinaSL_RegDlg.h" />
-    <ClInclude Include="GetMachineCode\BASE64\BASE64_API.h" />
-    <ClInclude Include="GetMachineCode\GetMachineCode.h" />
-    <ClInclude Include="GetMachineCode\HMACMD5\HMAC_MD5_API.h" />
-    <ClInclude Include="GetMachineCode\HMACMD5\HMAC_MD5_DATA.h" />
-    <ClInclude Include="GetMachineCode\MD5.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ChinaSL_Reg.cpp" />
-    <ClCompile Include="ChinaSL_RegDlg.cpp" />
-    <ClCompile Include="GetMachineCode\BASE64\BASE64_API.cpp" />
-    <ClCompile Include="GetMachineCode\GetMachineCode.cpp" />
-    <ClCompile Include="GetMachineCode\HMACMD5\HMAC_MD5_API.cpp" />
-    <ClCompile Include="GetMachineCode\MD5.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

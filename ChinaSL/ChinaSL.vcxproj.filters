@@ -13,9 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="GetMachineCode">
-      <UniqueIdentifier>{6dcf16e1-19e7-42f7-bb7e-537cf0bca802}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Login">
       <UniqueIdentifier>{79c6d5cb-431b-43e4-9553-85e9ceff7400}</UniqueIdentifier>
     </Filter>
@@ -24,68 +21,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ChinaSL.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="ChinaSLDlg.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="stdafx.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Resource.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="ReptileDlg.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="CSLPeilv.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="CCslAdo.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="WDS_COMMON.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="GetMachineCode\GetMachineCode.h">
-      <Filter>GetMachineCode</Filter>
-    </ClInclude>
-    <ClInclude Include="GetMachineCode\MD5.h">
-      <Filter>GetMachineCode</Filter>
-    </ClInclude>
-    <ClInclude Include="GetMachineCode\HMACMD5\HMAC_MD5_API.h">
-      <Filter>GetMachineCode</Filter>
-    </ClInclude>
-    <ClInclude Include="GetMachineCode\HMACMD5\HMAC_MD5_DATA.h">
-      <Filter>GetMachineCode</Filter>
-    </ClInclude>
-    <ClInclude Include="GetMachineCode\BASE64\BASE64_API.h">
-      <Filter>GetMachineCode</Filter>
-    </ClInclude>
-    <ClInclude Include="VMProtectSDK.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="ReptileFun.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Login\Appen.h">
-      <Filter>Login</Filter>
-    </ClInclude>
     <ClInclude Include="Login\Picture.h">
       <Filter>Login</Filter>
-    </ClInclude>
-    <ClInclude Include="Login\LoginDlg.h">
-      <Filter>Login</Filter>
-    </ClInclude>
-    <ClInclude Include="VerificationData.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="luaCfg.h">
-      <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="json\reader.h">
       <Filter>jsoncpp</Filter>
@@ -95,56 +32,8 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ChinaSL.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="ChinaSLDlg.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="stdafx.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="ReptileDlg.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="CSLPeilv.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="CCslAdo.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="WDS_COMMON.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="GetMachineCode\GetMachineCode.cpp">
-      <Filter>GetMachineCode</Filter>
-    </ClCompile>
-    <ClCompile Include="GetMachineCode\MD5.cpp">
-      <Filter>GetMachineCode</Filter>
-    </ClCompile>
-    <ClCompile Include="GetMachineCode\HMACMD5\HMAC_MD5_API.cpp">
-      <Filter>GetMachineCode</Filter>
-    </ClCompile>
-    <ClCompile Include="GetMachineCode\BASE64\BASE64_API.cpp">
-      <Filter>GetMachineCode</Filter>
-    </ClCompile>
-    <ClCompile Include="ReptileFun.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Login\Appen.cpp">
-      <Filter>Login</Filter>
-    </ClCompile>
     <ClCompile Include="Login\Picture.cpp">
       <Filter>Login</Filter>
-    </ClCompile>
-    <ClCompile Include="Login\LoginDlg.cpp">
-      <Filter>Login</Filter>
-    </ClCompile>
-    <ClCompile Include="VerificationData.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="luaCfg.cpp">
-      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -161,8 +50,5 @@
     <Image Include="res\ChinaSL.ico">
       <Filter>资源文件</Filter>
     </Image>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="DEV_LOG.txt" />
   </ItemGroup>
 </Project>

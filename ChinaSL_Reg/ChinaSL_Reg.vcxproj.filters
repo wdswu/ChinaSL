@@ -13,20 +13,11 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="GetMachineCode">
-      <UniqueIdentifier>{2fc7412a-e1c4-4101-882f-412086d702a1}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ChinaSL_Reg.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="ChinaSL_RegDlg.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="stdafx.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -36,43 +27,10 @@
     <ClInclude Include="Resource.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="GetMachineCode\GetMachineCode.h">
-      <Filter>GetMachineCode</Filter>
-    </ClInclude>
-    <ClInclude Include="GetMachineCode\MD5.h">
-      <Filter>GetMachineCode</Filter>
-    </ClInclude>
-    <ClInclude Include="GetMachineCode\HMACMD5\HMAC_MD5_API.h">
-      <Filter>GetMachineCode</Filter>
-    </ClInclude>
-    <ClInclude Include="GetMachineCode\HMACMD5\HMAC_MD5_DATA.h">
-      <Filter>GetMachineCode</Filter>
-    </ClInclude>
-    <ClInclude Include="GetMachineCode\BASE64\BASE64_API.h">
-      <Filter>GetMachineCode</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ChinaSL_Reg.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="ChinaSL_RegDlg.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="GetMachineCode\GetMachineCode.cpp">
-      <Filter>GetMachineCode</Filter>
-    </ClCompile>
-    <ClCompile Include="GetMachineCode\MD5.cpp">
-      <Filter>GetMachineCode</Filter>
-    </ClCompile>
-    <ClCompile Include="GetMachineCode\HMACMD5\HMAC_MD5_API.cpp">
-      <Filter>GetMachineCode</Filter>
-    </ClCompile>
-    <ClCompile Include="GetMachineCode\BASE64\BASE64_API.cpp">
-      <Filter>GetMachineCode</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
