@@ -15,7 +15,10 @@
 
 #define UM_MAIN_DLG_END				WM_USER+104 //通知主对话框退出的消息，BSP检测线程通知
 
-CString g_strVer = "v18.01.24.00";
+//wds测试
+int a = 0;
+CString g_strVer_test = "v18.01.24.00";
+bool aa = 0;
 
 //日志文件名，唯一(ChinaSLDlg.CPP)
 CString g_strLogName = "Log.txt";
