@@ -1,0 +1,10 @@
+﻿
+
+<server 说明1="">
+SQL1003.webweb.com</server>
+<database explain2="数据库名">
+DB_9A37DA_ChinaSL</database>
+<uid explain3="">
+DB_9A37DA_ChinaSL_admin</uid>
+<pwd explain4="">
+xxx</pwd>
