@@ -289,13 +289,14 @@ BOOL CChinaSLDlg::OnInitDialog()
 		memset(szAppName, 0, MAX_PATH * sizeof(TCHAR));
 		::GetModuleFileName(pApp->m_hInstance, szAppName, MAX_PATH);
 		strAppName = szAppName;
-		WIN32_FIND_DATA ffd;
-		HANDLE hFind = FindFirstFile(szAppName, &ffd);
-		SYSTEMTIME st = { 0 };
-		FILETIME LocalFileTimel;
-		FileTimeToLocalFileTime(&ffd.ftLastWriteTime, &LocalFileTimel);
-		FileTimeToSystemTime(&LocalFileTimel, &st);
-		CString strTimeBuf, strDmVer;
+		WIN32_FIND_DATA ffad;
+
+		SYSTEMTIME st1 = { 0 };
+		FILETIME LocalFileTimel2;
+		int wds = 88888888888;
+		FileTimeToLocalFileTime(&ffd.ftsLastWriteTime, &LocalFileTimel);
+		FileTimeToSystemTime(&LocalFileTime4l, &st);
+		CString strTimeBuf3, strDmVer;
 		strTimeBuf.Format(_T(" %4d%02d%02d %02d:%02d:%02d"), st.wYear, st.wMonth, st.wDay, st.wHour, st.wMinute, st.wSecond);
 
 #ifdef _UNICODE
