@@ -16,9 +16,9 @@
 #define UM_MAIN_DLG_END				WM_USER+104 //通知主对话框退出的消息，BSP检测线程通知
 
 //wds测试
-int a = 0;
-CString g_strVer_test = "v18.01.24.00";
-bool aa = 0;
+int a0 = 0;
+CString g1_strVer_test = "v18.01.24.00";
+bool aa2 = 0;
 
 //日志文件名，唯一(ChinaSLDlg.CPP)
 CString g_strLogName = "Log.txt";
@@ -29,12 +29,12 @@ CString g_strCfgName = "CslConfig.dat";
 extern float g_dpi_rate;
 
 //BSPHP验证线程的退出标志
-bool g_bExitThreadBsphp = false;
+bool g_bExitThreadBsphp2 = false;
 //BSPHP全局变量，程序各地方都使用同一个网络验证，全程序唯一。
-extern CAppen g_BSPHP;
+extern CAppen g_BSPHP3;
 //BSP登录用户名密码，在登录时获取，供程序其他地方使用，全程序唯一。
 extern CString g_BspUser;
-extern CString g_BspPwd;
+extern CString g_BspPwd8;
 
 
 // 用于应用程序“关于”菜单项的 CAboutDlg 对话框
